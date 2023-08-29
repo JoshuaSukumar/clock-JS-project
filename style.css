@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3d087b;  
+}
+.main{
+   display: flex;
+}
+.leftcontainer{
+    margin-left: 42px;
+}
+#logo{
+    width: 203px;
+    height: 77px;
+    margin: 30px 42px;
+}
+.timeset{
+    width: 566px;
+    height: 363px;
+    background-color: #ffff;
+    margin-left: 42px;
+    border: 1px solid #ededed;
+    border-radius: 10px;
+}
+.card1{
+    display: flex;
+}
+.image1{
+    width: 34px;
+    height: 34px;
+    margin: 20px;
+    display: inline-block;
+}
+.mor{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.wakeup{
+    font-size: 18px;
+    color: #3D087B;  
+}
+.selectform{
+    width: 281px;
+    height: 45px;
+    font-size: 14px;
+    color: #3D087BDE;
+    letter-spacing: 0.25px;
+    margin-left: 40px;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    background-color: #ffff;  
+}
+h1{
+    font-size: 10px;
+    margin-left: 35px;
+    color:#8c8989;
+}
+.card2{
+    margin:10px;
+}
+.noon{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lunchtime{
+    font-size: 18px;
+    color: #3D087B;
+    margin-right: 20px;  
+}
+.card3{
+    margin:10px;
+}
+.eveningnap{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.naptime{
+    font-size: 18px;
+    color: #3D087B;
+    margin-right: 30px;  
+}
+.card4{
+    margin: 10px;
+}
+.sleep{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.night{
+    font-size: 18px;
+    color: #3D087B;
+    margin-right: 20px;  
+}
+.image{
+    width: 34px;
+    height: 34px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.box2{
+    width: 566px;
+    height: 77px;
+    background-color: #7046a1de;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#greeting{
+    color:#ffff;
+    font-size: 27px;
+    font-family: Bauhaus Hv BT;
+    padding: 20px 10px;
+}
+.box3{
+    margin-top: 10px;
+    display: flex;
+}
+.button{
+    width: 299px;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 4px;
+    color: #ffff;
+    background-image:linear-gradient(to right, #6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
+}
+button::after {
+    content: 'Set Alarm';
+ }
+ 
+ button:hover::after {
+    content: 'Party time!';
+ }
+.dialogbox{
+    width: 250px;
+    height: 100px;
+    margin-left: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #7046a1de;
+    border-radius: 10px;
+}
+.timeto{
+    color: #F25CFE;
+    font-size: 15px; 
+}
+.rightcontainer{
+    margin-top: 42px;
+}
+.time{
+    width: 536px;
+    height: 120px;
+    margin-left: 42px;
+    background-color: #ffff;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family:serif;
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+    position: relative;
+    z-index: 4;
+} 
+h3{
+    color: #3D087B;
+}
+.time2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px; 
+}
+.hours, .minutes, .seconds{
+    background-image: url(./timeline.png);
+    width: 80px;
+    height: 90px;
+    margin: 05px;
+}
+#min, #sec, #hrs{
+    font-size: 36px;
+    color: #8A11BF;
+    justify-content: center;
+    text-align: center;
+}
+p{
+    font-size: 23px;
+    color: #8A11BF;
+    text-align: center;
+}
+h4{
+    font-size: 23px;
+}
+.ampm{
+    background-image: url(./AM_svg.png);
+    width: 82px;
+    height: 90px;
+    font-size: 36px;
+    margin: 10px;
+}
+#ampm{
+    color: #ffff;
+    text-align: center;
+    margin-top: 30px;
+}
+.background1{
+    position: relative;
+    width: 416px;
+    z-index: 2;
+    opacity: 75%;
+    margin-top: -105px;
+    margin-left: 100px;
+}
+.background2{
+    position: relative;
+    width: 379px;
+    z-index: 1;
+    opacity: 25%;
+    margin-top: -105px;
+    margin-left: 120px;
+}
+.divsetting{
+    width: 536px;
+    height: 110px;
+    margin-top: 10px;
+    margin-left: 42px;
+    background-color: #ffff;
+    border-radius: 10px;  
+}  
+#settime{
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8E53F0;
+    padding-top: 30px;
+}
+.clockimage{
+    width: 536px;
+    height: 335px;
+    margin-top: 20px;
+    margin-left:42px;
+}
+
+/* mobile view */
+@media screen and (min-width: 250px) and (max-width:500px) {
+    .main{
+        display: block;
+    }
+    .rightcontainer{
+        margin-top: 250px;
+        /* margin-left: 42px; */
+    }
+    .leftcontainer{
+        margin-left: 10px;
+    } 
+}
+
+
+/* tablet view */
+@media screen and (min-width: 500px) and (max-width:900px) {
+    .main{
+        display: block;
+    }
+    .rightcontainer{
+        margin-top: 250px;
+    }
+    .leftcontainer{
+        margin-left: 42px;
+    } 
+}
